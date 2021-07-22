@@ -10,11 +10,10 @@ fun main() {
     values[3] = 2
     values[4] = 7
 
-
     println("for usando variaveis: ")
     for (valor in values){  print(" ${valor} ")   }
 
-    values.sort()
+    values.sort()   // Organiza matriz em ordem crescente
 
     println("\nforEach (Usa função lambda 'it') com sort: ")
     values.forEach {  print(" ${it} ")    }
@@ -24,5 +23,4 @@ fun main() {
 
     println("\nfor usando index: ")
     for (index in values.indices){ print(" ${values[index]} ") }
-
 }
